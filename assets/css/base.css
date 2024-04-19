@@ -1,0 +1,35 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* line-height: 1.6rem; */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.default-background {
+    background: rgb(0, 0, 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
